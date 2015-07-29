@@ -4,4 +4,22 @@
 
 ファイルをアップロードしたらSlackに通知します。
 
-* Python 2.x
+## 対象バージョン
+
+Python 2.7.x
+
+## 使い方
+
+```
+#認証用ファイルを作成する
+$ python make_creadentials.py
+
+#表示されたURLにアクセスして認証後に表示される文字を貼り付ける
+
+#設定ファイルを編集
+$ cp config.py.org config.py
+$ vi config.py 
+
+#実行
+$ python watcher.py
+```
