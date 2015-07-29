@@ -1,0 +1,4 @@
+gmusicapi
+watchdog
+pyslack-real
+eyed3
