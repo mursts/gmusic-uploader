@@ -11,6 +11,8 @@ Python 2.7.x
 ## 使い方
 
 ```
+$ pip install -r requirements.txt
+
 #認証用ファイルを作成する
 $ python make_creadentials.py
 
