@@ -34,6 +34,8 @@ def upload(file_path):
     elif result[2]:
         raise Exception('アップロード失敗 {}'.format(result[2][file_path]))
 
+    os.remove(file_path)
+
 
 def notify(message):
     api = SlackClient(config.SLACK_API_KEY)
