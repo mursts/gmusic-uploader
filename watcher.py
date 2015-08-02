@@ -13,7 +13,7 @@ from gmusicapi import Musicmanager
 from pyslack import SlackClient
 
 CREDENTIALS_PATH = os.path.join(os.path.dirname(__file__),
-                                'credentials.dat')
+                                'credentials.json')
 
 EXTENSIONS = ['.mp3', '.m4a', '.flac']
 

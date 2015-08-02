@@ -6,7 +6,7 @@ import oauth2client
 from gmusicapi import Musicmanager
 
 CREDENTIALS_PATH = os.path.join(os.path.dirname(__file__),
-                                'credentials.dat')
+                                'credentials.json')
 
 
 def main():
